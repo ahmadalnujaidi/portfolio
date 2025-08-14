@@ -190,6 +190,24 @@ const projectsData = [
     category: ['web', 'frontend', 'backend'],
     github: 'https://github.com/ahmadalnujaidi/Sketch-To-Art',
     demo: 'https://www.youtube.com/watch?v=ePQIamc7ETE'
+  },
+  {
+    title: 'Ecommerce Website',
+    description: 'Developed an ecommerce application, using C#, ASP.NET, and integrated an SQL database with ADO.NET, and SSMS',
+    image: '/images/projects/ecommerce.png',
+    technologies: ['ADO.Net', 'SQL', 'C#', 'ASP.NET', 'SSMS'],
+    category: ['web', 'backend', 'frontend'],
+    github: 'https://github.com/ahmadalnujaidi/ecommerce-ASP.NET',
+    demo: 'https://www.youtube.com/watch?v=AhIYLARaPqE'
+  },
+  {
+    title: 'Mudrik - Senior Project',
+    description: 'Developed Voice-Controlled Web App to assist visually impaired people to navigate through their environment, and integrated real-time object detection, real-time AI Assisstant, and an OCR engine to read text from images',
+    image: '/images/projects/Mudrik.png',
+    technologies: ['React', 'Python', 'Flask','Node.js', 'OpenAI API', 'OCR', 'Computer Vision'],
+    category: ['web', 'frontend', 'backend', 'other'],
+    github: 'https://github.com/ahmadalnujaidi/senior_project',
+    demo: ''
   }
 ];
 

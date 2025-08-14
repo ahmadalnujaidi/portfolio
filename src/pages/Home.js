@@ -73,7 +73,7 @@ const Home = () => {
               <StatLabel>Projects Completed</StatLabel>
             </StatItem>
             <StatItem>
-              <StatNumber>8+</StatNumber>
+              <StatNumber>Modern</StatNumber>
               <StatLabel>Technologies</StatLabel>
             </StatItem>
             <StatItem>
