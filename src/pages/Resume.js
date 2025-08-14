@@ -150,7 +150,7 @@ const educationData = [
     degree: 'Bachelor of Science in Software Engineering',
     institution: 'Prince Mohammad bin Fahd University',
     period: '2020 - 2025',
-    description: 'Recent Graduate'
+    description: 'Dean\'s List \n GPA: 3.25/4.0'
   },
   {
     degree: 'IELTS Certification',
@@ -182,11 +182,25 @@ const experienceData = [
     skills: ['HTML/CSS/JS', 'Python', 'Flask', 'Computer Vision', 'YOLO']
   },
   {
+    position: 'Software Engineering Trainee',
+    company: 'Masar by Sani',
+    period: 'Oct 2024 - Feb 2024',
+    description: 'Engaged in a structured program addressing real-world engineering problems through hands-on projects. Developed software solutions using NestJS, ensuring adherence to industry best practices.',
+    skills: ['NestJS', 'TypeScript', 'Node.js', 'PostgreSQL', 'REST API', 'SQL', 'Git', 'Postman']
+  },
+  {
     position: 'Head of the Web and App Development Team',
     company: 'Google Developer Groups',
     period: 'Oct 2024 - Present',
-    description: '◦ Head of the Google’s Web and App Development Team, on Prince Mohammad bin Fahd Campus.',
+    description: 'Head of the Google’s Web and App Development Team, on Prince Mohammad bin Fahd Campus.',
     skills: ['Web Development', 'Mobile Development']
+  },
+  {
+    position: 'Software Engineer (Assisting Startups)',
+    company: 'Enigma - Startup Company',
+    period: 'Feb 2025 - Present',
+    description: 'Developed and deployed interactive artificial intelligence systems for public use on Kiosk screens.',
+    skills: ['Python', 'OpenAI API']
   }
 ];
 // copy over from Skills.js
@@ -220,18 +234,12 @@ const certificationsData = [
     date: 'Aug 2024',
     url: 'https://www.coursera.org/account/accomplishments/specialization/LFG7WPJ1NGRW'
   },
-  // {
-  //   title: 'Hackathon Winner - Best Web Application',
-  //   issuer: 'TechFest 2022',
-  //   date: 'March 2022',
-  //   url: null
-  // },
-  // {
-  //   title: 'Python for Data Science and Machine Learning',
-  //   issuer: 'Coursera',
-  //   date: 'January 2022',
-  //   url: 'https://www.coursera.org/account/accomplishments/verify/12345'
-  // }
+  {
+    title: 'Full-Stack Engineer',
+    issuer: 'CodeCademy',
+    date: 'June 2025',
+    url: 'https://www.codecademy.com/profiles/AhmadAlnujaidi/certificates/ffd0f42cce1a44e9a0108b365047a0a6'
+  },
 ];
 
 // Styled Components

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaPaperPlane, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaPaperPlane, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -175,14 +175,15 @@ ${formData.message}
             >
               <FaLinkedin />
             </SocialLink>
+
             <SocialLink 
-              href="https://x.com/antigon02" 
+              href="https://www.youtube.com/@ahmadalnujaidi" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5, color: '#1da1f2' }}
               transition={{ duration: 0.3 }}
             >
-              <FaTwitter />
+              <FaYoutube />
             </SocialLink>
           </SocialLinks>
         </ContactInfoSection>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaYoutube } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -30,7 +30,8 @@ const Footer = () => {
             >
               <FaLinkedin />
             </SocialIconLink>
-            <SocialIconLink 
+
+            {/* <SocialIconLink 
               href="https://x.com/antigon02" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -38,7 +39,22 @@ const Footer = () => {
               transition={{ duration: 0.3 }}
             >
               <FaTwitter />
+            </SocialIconLink> */}
+
+            <SocialIconLink 
+              href="https://www.youtube.com/@ahmadalnujaidi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              whileHover={{ y: -5, color: '#1da1f2' }}
+              transition={{ duration: 0.3 }}
+            >
+              <FaYoutube/>
             </SocialIconLink>
+
+            
+
+            
+
             <SocialIconLink 
               href="mailto:ahmadalnujaidi02@gmail.com" 
               whileHover={{ y: -5, color: '#ea4335' }}
